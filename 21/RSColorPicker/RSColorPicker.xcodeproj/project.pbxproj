@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FA35E6013F57B2700A6B347 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA35E5F13F57B2700A6B347 /* UIKit.framework */; };
+		1FA35E6213F57B2700A6B347 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA35E6113F57B2700A6B347 /* Foundation.framework */; };
+		1FA35E6413F57B2700A6B347 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA35E6313F57B2700A6B347 /* CoreGraphics.framework */; };
+		1FA35E6A13F57B2800A6B347 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FA35E6813F57B2800A6B347 /* InfoPlist.strings */; };
+		1FA35E6D13F57B2800A6B347 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA35E6C13F57B2800A6B347 /* main.m */; };
+		1FA35E7013F57B2800A6B347 /* RSColorPickerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA35E6F13F57B2800A6B347 /* RSColorPickerAppDelegate.m */; };
+		1FA35E7313F57B2800A6B347 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FA35E7113F57B2800A6B347 /* MainWindow.xib */; };
+		1FA35E9913F5A17E00A6B347 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA35E9813F5A17E00A6B347 /* QuartzCore.framework */; };
+		1FA35EC613F5AE1500A6B347 /* RSBrightnessSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA35EC313F5AE1400A6B347 /* RSBrightnessSlider.m */; };
+		1FA35EC713F5AE1500A6B347 /* RSColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA35EC513F5AE1500A6B347 /* RSColorPickerView.m */; };
+		2BD7E12914C1B83E00BD1096 /* BGRSLoupeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7E12814C1B83E00BD1096 /* BGRSLoupeLayer.m */; };
+		2BD7E14414C1B94C00BD1096 /* ANImageBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7E12C14C1B94C00BD1096 /* ANImageBitmapRep.m */; };
+		2BD7E14514C1B94C00BD1096 /* BitmapContextRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7E12E14C1B94C00BD1096 /* BitmapContextRep.m */; };
+		2BD7E14614C1B94C00BD1096 /* NSImage+ANImageBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7E13114C1B94C00BD1096 /* NSImage+ANImageBitmapRep.m */; };
+		2BD7E14714C1B94C00BD1096 /* OSCommonImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7E13314C1B94C00BD1096 /* OSCommonImage.m */; };
+		2BD7E14814C1B94C00BD1096 /* UIImage+ANImageBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7E13514C1B94C00BD1096 /* UIImage+ANImageBitmapRep.m */; };
+		2BD7E14914C1B94C00BD1096 /* CGContextCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7E13814C1B94C00BD1096 /* CGContextCreator.m */; };
+		2BD7E14A14C1B94C00BD1096 /* CGImageContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7E13A14C1B94C00BD1096 /* CGImageContainer.m */; };
+		2BD7E14B14C1B94C00BD1096 /* BitmapContextManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7E13D14C1B94C00BD1096 /* BitmapContextManipulator.m */; };
+		2BD7E14C14C1B94C00BD1096 /* BitmapCropManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7E13F14C1B94C00BD1096 /* BitmapCropManipulator.m */; };
+		2BD7E14D14C1B94C00BD1096 /* BitmapRotationManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7E14114C1B94C00BD1096 /* BitmapRotationManipulator.m */; };
+		2BD7E14E14C1B94C00BD1096 /* BitmapScaleManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7E14314C1B94C00BD1096 /* BitmapScaleManipulator.m */; };
+		AC253C921A6151E200668421 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC253C911A6151E200668421 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FA35E5B13F57B2700A6B347 /* RSColorPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSColorPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA35E5F13F57B2700A6B347 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1FA35E6113F57B2700A6B347 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1FA35E6313F57B2700A6B347 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1FA35E6713F57B2700A6B347 /* RSColorPicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RSColorPicker-Info.plist"; sourceTree = "<group>"; };
+		1FA35E6913F57B2800A6B347 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1FA35E6B13F57B2800A6B347 /* RSColorPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSColorPicker-Prefix.pch"; sourceTree = "<group>"; };
+		1FA35E6C13F57B2800A6B347 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FA35E6E13F57B2800A6B347 /* RSColorPickerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSColorPickerAppDelegate.h; sourceTree = "<group>"; };
+		1FA35E6F13F57B2800A6B347 /* RSColorPickerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSColorPickerAppDelegate.m; sourceTree = "<group>"; };
+		1FA35E7213F57B2800A6B347 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1FA35E9813F5A17E00A6B347 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1FA35EC213F5AE1400A6B347 /* RSBrightnessSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSBrightnessSlider.h; path = ColorPickerClasses/RSBrightnessSlider.h; sourceTree = "<group>"; };
+		1FA35EC313F5AE1400A6B347 /* RSBrightnessSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSBrightnessSlider.m; path = ColorPickerClasses/RSBrightnessSlider.m; sourceTree = "<group>"; };
+		1FA35EC413F5AE1400A6B347 /* RSColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSColorPickerView.h; path = ColorPickerClasses/RSColorPickerView.h; sourceTree = "<group>"; };
+		1FA35EC513F5AE1500A6B347 /* RSColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSColorPickerView.m; path = ColorPickerClasses/RSColorPickerView.m; sourceTree = "<group>"; };
+		2BD7E12714C1B83E00BD1096 /* BGRSLoupeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BGRSLoupeLayer.h; path = ColorPickerClasses/BGRSLoupeLayer.h; sourceTree = "<group>"; };
+		2BD7E12814C1B83E00BD1096 /* BGRSLoupeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BGRSLoupeLayer.m; path = ColorPickerClasses/BGRSLoupeLayer.m; sourceTree = "<group>"; };
+		2BD7E12B14C1B94C00BD1096 /* ANImageBitmapRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANImageBitmapRep.h; sourceTree = "<group>"; };
+		2BD7E12C14C1B94C00BD1096 /* ANImageBitmapRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANImageBitmapRep.m; sourceTree = "<group>"; };
+		2BD7E12D14C1B94C00BD1096 /* BitmapContextRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapContextRep.h; sourceTree = "<group>"; };
+		2BD7E12E14C1B94C00BD1096 /* BitmapContextRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitmapContextRep.m; sourceTree = "<group>"; };
+		2BD7E13014C1B94C00BD1096 /* NSImage+ANImageBitmapRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+ANImageBitmapRep.h"; sourceTree = "<group>"; };
+		2BD7E13114C1B94C00BD1096 /* NSImage+ANImageBitmapRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+ANImageBitmapRep.m"; sourceTree = "<group>"; };
+		2BD7E13214C1B94C00BD1096 /* OSCommonImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCommonImage.h; sourceTree = "<group>"; };
+		2BD7E13314C1B94C00BD1096 /* OSCommonImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCommonImage.m; sourceTree = "<group>"; };
+		2BD7E13414C1B94C00BD1096 /* UIImage+ANImageBitmapRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ANImageBitmapRep.h"; sourceTree = "<group>"; };
+		2BD7E13514C1B94C00BD1096 /* UIImage+ANImageBitmapRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ANImageBitmapRep.m"; sourceTree = "<group>"; };
+		2BD7E13714C1B94C00BD1096 /* CGContextCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGContextCreator.h; sourceTree = "<group>"; };
+		2BD7E13814C1B94C00BD1096 /* CGContextCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGContextCreator.m; sourceTree = "<group>"; };
+		2BD7E13914C1B94C00BD1096 /* CGImageContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGImageContainer.h; sourceTree = "<group>"; };
+		2BD7E13A14C1B94C00BD1096 /* CGImageContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGImageContainer.m; sourceTree = "<group>"; };
+		2BD7E13C14C1B94C00BD1096 /* BitmapContextManipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapContextManipulator.h; sourceTree = "<group>"; };
+		2BD7E13D14C1B94C00BD1096 /* BitmapContextManipulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitmapContextManipulator.m; sourceTree = "<group>"; };
+		2BD7E13E14C1B94C00BD1096 /* BitmapCropManipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapCropManipulator.h; sourceTree = "<group>"; };
+		2BD7E13F14C1B94C00BD1096 /* BitmapCropManipulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitmapCropManipulator.m; sourceTree = "<group>"; };
+		2BD7E14014C1B94C00BD1096 /* BitmapRotationManipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapRotationManipulator.h; sourceTree = "<group>"; };
+		2BD7E14114C1B94C00BD1096 /* BitmapRotationManipulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitmapRotationManipulator.m; sourceTree = "<group>"; };
+		2BD7E14214C1B94C00BD1096 /* BitmapScaleManipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapScaleManipulator.h; sourceTree = "<group>"; };
+		2BD7E14314C1B94C00BD1096 /* BitmapScaleManipulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitmapScaleManipulator.m; sourceTree = "<group>"; };
+		AC253C911A6151E200668421 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FA35E5813F57B2700A6B347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA35E9913F5A17E00A6B347 /* QuartzCore.framework in Frameworks */,
+				1FA35E6013F57B2700A6B347 /* UIKit.framework in Frameworks */,
+				1FA35E6213F57B2700A6B347 /* Foundation.framework in Frameworks */,
+				1FA35E6413F57B2700A6B347 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FA35E5013F57B2700A6B347 = {
+			isa = PBXGroup;
+			children = (
+				AC253C911A6151E200668421 /* Default-568h@2x.png */,
+				1FA35E6513F57B2700A6B347 /* RSColorPicker */,
+				1FA35E5E13F57B2700A6B347 /* Frameworks */,
+				1FA35E5C13F57B2700A6B347 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FA35E5C13F57B2700A6B347 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FA35E5B13F57B2700A6B347 /* RSColorPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FA35E5E13F57B2700A6B347 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FA35E9813F5A17E00A6B347 /* QuartzCore.framework */,
+				1FA35E5F13F57B2700A6B347 /* UIKit.framework */,
+				1FA35E6113F57B2700A6B347 /* Foundation.framework */,
+				1FA35E6313F57B2700A6B347 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FA35E6513F57B2700A6B347 /* RSColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				1FA35E6E13F57B2800A6B347 /* RSColorPickerAppDelegate.h */,
+				1FA35E6F13F57B2800A6B347 /* RSColorPickerAppDelegate.m */,
+				1FA35EC813F5AE1B00A6B347 /* ColorPicker */,
+				2BD7E12A14C1B94C00BD1096 /* ANImageBitmapRep */,
+				1FA35E7113F57B2800A6B347 /* MainWindow.xib */,
+				1FA35E6613F57B2700A6B347 /* Supporting Files */,
+			);
+			path = RSColorPicker;
+			sourceTree = "<group>";
+		};
+		1FA35E6613F57B2700A6B347 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FA35E6713F57B2700A6B347 /* RSColorPicker-Info.plist */,
+				1FA35E6813F57B2800A6B347 /* InfoPlist.strings */,
+				1FA35E6B13F57B2800A6B347 /* RSColorPicker-Prefix.pch */,
+				1FA35E6C13F57B2800A6B347 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FA35EC813F5AE1B00A6B347 /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				1FA35EC213F5AE1400A6B347 /* RSBrightnessSlider.h */,
+				1FA35EC313F5AE1400A6B347 /* RSBrightnessSlider.m */,
+				1FA35EC413F5AE1400A6B347 /* RSColorPickerView.h */,
+				1FA35EC513F5AE1500A6B347 /* RSColorPickerView.m */,
+				2BD7E12714C1B83E00BD1096 /* BGRSLoupeLayer.h */,
+				2BD7E12814C1B83E00BD1096 /* BGRSLoupeLayer.m */,
+			);
+			name = ColorPicker;
+			sourceTree = "<group>";
+		};
+		2BD7E12A14C1B94C00BD1096 /* ANImageBitmapRep */ = {
+			isa = PBXGroup;
+			children = (
+				2BD7E12B14C1B94C00BD1096 /* ANImageBitmapRep.h */,
+				2BD7E12C14C1B94C00BD1096 /* ANImageBitmapRep.m */,
+				2BD7E12D14C1B94C00BD1096 /* BitmapContextRep.h */,
+				2BD7E12E14C1B94C00BD1096 /* BitmapContextRep.m */,
+				2BD7E12F14C1B94C00BD1096 /* Compatibility */,
+				2BD7E13614C1B94C00BD1096 /* CoreGraphics */,
+				2BD7E13B14C1B94C00BD1096 /* Manipulators */,
+			);
+			path = ANImageBitmapRep;
+			sourceTree = "<group>";
+		};
+		2BD7E12F14C1B94C00BD1096 /* Compatibility */ = {
+			isa = PBXGroup;
+			children = (
+				2BD7E13014C1B94C00BD1096 /* NSImage+ANImageBitmapRep.h */,
+				2BD7E13114C1B94C00BD1096 /* NSImage+ANImageBitmapRep.m */,
+				2BD7E13214C1B94C00BD1096 /* OSCommonImage.h */,
+				2BD7E13314C1B94C00BD1096 /* OSCommonImage.m */,
+				2BD7E13414C1B94C00BD1096 /* UIImage+ANImageBitmapRep.h */,
+				2BD7E13514C1B94C00BD1096 /* UIImage+ANImageBitmapRep.m */,
+			);
+			path = Compatibility;
+			sourceTree = "<group>";
+		};
+		2BD7E13614C1B94C00BD1096 /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				2BD7E13714C1B94C00BD1096 /* CGContextCreator.h */,
+				2BD7E13814C1B94C00BD1096 /* CGContextCreator.m */,
+				2BD7E13914C1B94C00BD1096 /* CGImageContainer.h */,
+				2BD7E13A14C1B94C00BD1096 /* CGImageContainer.m */,
+			);
+			path = CoreGraphics;
+			sourceTree = "<group>";
+		};
+		2BD7E13B14C1B94C00BD1096 /* Manipulators */ = {
+			isa = PBXGroup;
+			children = (
+				2BD7E13C14C1B94C00BD1096 /* BitmapContextManipulator.h */,
+				2BD7E13D14C1B94C00BD1096 /* BitmapContextManipulator.m */,
+				2BD7E13E14C1B94C00BD1096 /* BitmapCropManipulator.h */,
+				2BD7E13F14C1B94C00BD1096 /* BitmapCropManipulator.m */,
+				2BD7E14014C1B94C00BD1096 /* BitmapRotationManipulator.h */,
+				2BD7E14114C1B94C00BD1096 /* BitmapRotationManipulator.m */,
+				2BD7E14214C1B94C00BD1096 /* BitmapScaleManipulator.h */,
+				2BD7E14314C1B94C00BD1096 /* BitmapScaleManipulator.m */,
+			);
+			path = Manipulators;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FA35E5A13F57B2700A6B347 /* RSColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FA35E7613F57B2800A6B347 /* Build configuration list for PBXNativeTarget "RSColorPicker" */;
+			buildPhases = (
+				1FA35E5713F57B2700A6B347 /* Sources */,
+				1FA35E5813F57B2700A6B347 /* Frameworks */,
+				1FA35E5913F57B2700A6B347 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSColorPicker;
+			productName = RSColorPicker;
+			productReference = 1FA35E5B13F57B2700A6B347 /* RSColorPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FA35E5213F57B2700A6B347 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Freelance Web Developer";
+			};
+			buildConfigurationList = 1FA35E5513F57B2700A6B347 /* Build configuration list for PBXProject "RSColorPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1FA35E5013F57B2700A6B347;
+			productRefGroup = 1FA35E5C13F57B2700A6B347 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FA35E5A13F57B2700A6B347 /* RSColorPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FA35E5913F57B2700A6B347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA35E6A13F57B2800A6B347 /* InfoPlist.strings in Resources */,
+				1FA35E7313F57B2800A6B347 /* MainWindow.xib in Resources */,
+				AC253C921A6151E200668421 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FA35E5713F57B2700A6B347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA35E6D13F57B2800A6B347 /* main.m in Sources */,
+				1FA35E7013F57B2800A6B347 /* RSColorPickerAppDelegate.m in Sources */,
+				1FA35EC613F5AE1500A6B347 /* RSBrightnessSlider.m in Sources */,
+				1FA35EC713F5AE1500A6B347 /* RSColorPickerView.m in Sources */,
+				2BD7E12914C1B83E00BD1096 /* BGRSLoupeLayer.m in Sources */,
+				2BD7E14414C1B94C00BD1096 /* ANImageBitmapRep.m in Sources */,
+				2BD7E14514C1B94C00BD1096 /* BitmapContextRep.m in Sources */,
+				2BD7E14614C1B94C00BD1096 /* NSImage+ANImageBitmapRep.m in Sources */,
+				2BD7E14714C1B94C00BD1096 /* OSCommonImage.m in Sources */,
+				2BD7E14814C1B94C00BD1096 /* UIImage+ANImageBitmapRep.m in Sources */,
+				2BD7E14914C1B94C00BD1096 /* CGContextCreator.m in Sources */,
+				2BD7E14A14C1B94C00BD1096 /* CGImageContainer.m in Sources */,
+				2BD7E14B14C1B94C00BD1096 /* BitmapContextManipulator.m in Sources */,
+				2BD7E14C14C1B94C00BD1096 /* BitmapCropManipulator.m in Sources */,
+				2BD7E14D14C1B94C00BD1096 /* BitmapRotationManipulator.m in Sources */,
+				2BD7E14E14C1B94C00BD1096 /* BitmapScaleManipulator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1FA35E6813F57B2800A6B347 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FA35E6913F57B2800A6B347 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1FA35E7113F57B2800A6B347 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FA35E7213F57B2800A6B347 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FA35E7413F57B2800A6B347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1FA35E7513F57B2800A6B347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1FA35E7713F57B2800A6B347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSColorPicker/RSColorPicker-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "RSColorPicker/RSColorPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1FA35E7813F57B2800A6B347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSColorPicker/RSColorPicker-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "RSColorPicker/RSColorPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FA35E5513F57B2700A6B347 /* Build configuration list for PBXProject "RSColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA35E7413F57B2800A6B347 /* Debug */,
+				1FA35E7513F57B2800A6B347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FA35E7613F57B2800A6B347 /* Build configuration list for PBXNativeTarget "RSColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA35E7713F57B2800A6B347 /* Debug */,
+				1FA35E7813F57B2800A6B347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FA35E5213F57B2700A6B347 /* Project object */;
+}

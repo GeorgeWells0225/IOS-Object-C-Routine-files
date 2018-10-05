@@ -1,0 +1,649 @@
+TDay24
+v7
+r0
+t309585977.580828
+cCheck dependencies
+cProcessInfoPlistFile /Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app/Info.plist Day24-Info.plist
+cCompileXIB /Users/Kevin/Desktop/Day24/FlipsideView.xib
+cCompileXIB /Users/Kevin/Desktop/Day24/MainView.xib
+cCompileXIB /Users/Kevin/Desktop/Day24/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/Day24.app/Default.png Default.png
+cCpResource build/Debug-iphonesimulator/Day24.app/fire01.png fire01.png
+cCpResource build/Debug-iphonesimulator/Day24.app/fire02.png fire02.png
+cCpResource build/Debug-iphonesimulator/Day24.app/fire03.png fire03.png
+cCpResource build/Debug-iphonesimulator/Day24.app/fire04.png fire04.png
+cCpResource build/Debug-iphonesimulator/Day24.app/fire05.png fire05.png
+cProcessPCH /var/folders/cd/cdPtmTJXGhC4BynvsqnzcE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Day24_Prefix-bzreldvbkylcmadxrwvvxfshwcvs/Day24_Prefix.pch.gch Day24_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Day24.build/Debug-iphonesimulator/Day24.build/Objects-normal/i386/main.o /Users/Kevin/Desktop/Day24/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Day24.build/Debug-iphonesimulator/Day24.build/Objects-normal/i386/Day24AppDelegate.o /Users/Kevin/Desktop/Day24/Classes/Day24AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Day24.build/Debug-iphonesimulator/Day24.build/Objects-normal/i386/MainViewController.o /Users/Kevin/Desktop/Day24/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Day24.build/Debug-iphonesimulator/Day24.build/Objects-normal/i386/FlipsideViewController.o /Users/Kevin/Desktop/Day24/Classes/FlipsideViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app/Day24 normal i386
+cGenerateDSYMFile /Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app.dSYM /Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app/Day24
+cTouch /Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004C5A505200000000000000C4
+t1280987218
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004C5A50EF0000000000154E50
+t1280987375
+s1396304
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/Availability.h
+c000000004C57A0390000000000001A5C
+t1280811065
+s6748
+
+N/Users/Kevin/Desktop/Day24/Classes/Day24AppDelegate.h
+c000000004CC3AC3D00000000000001D4
+t1287892029
+s468
+i<UIKit/UIKit.h>
+
+N/Users/Kevin/Desktop/Day24/Classes/Day24AppDelegate.m
+c000000004CC3AC3D0000000000000A8F
+t1287892029
+s2703
+i"Day24AppDelegate.h"
+i"MainViewController.h"
+
+N/Users/Kevin/Desktop/Day24/Classes/FlipsideViewController.h
+c000000004CC3AC3D000000000000022B
+t1287892029
+s555
+i<UIKit/UIKit.h>
+
+N/Users/Kevin/Desktop/Day24/Classes/FlipsideViewController.m
+c000000004CC3AC3D0000000000000450
+t1287892029
+s1104
+i"FlipsideViewController.h"
+
+N/Users/Kevin/Desktop/Day24/Classes/MainViewController.h
+c000000004CC3AE260000000000000151
+t1287892518
+s337
+i"FlipsideViewController.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/Kevin/Desktop/Day24/Classes/MainViewController.m
+c000000004CC3AE8600000000000007E2
+t1287892614
+s2018
+i"MainViewController.h"
+
+N/Users/Kevin/Desktop/Day24/Day24_Prefix.pch
+c000000004CC3AC3D000000000000013C
+t1287892029
+s316
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Kevin/Desktop/Day24/Default.png
+c000000004C50C1D4000000000002BFBB
+t1280360916
+s180155
+
+N/Users/Kevin/Desktop/Day24/FlipsideView.xib
+c000000004CC3B06700000000000059BC
+t1287893095
+s22972
+
+N/Users/Kevin/Desktop/Day24/MainView.xib
+c000000004CC3AEE60000000000004950
+t1287892710
+s18768
+
+N/Users/Kevin/Desktop/Day24/MainWindow.xib
+c000000004CC3AC3D0000000000005090
+t1287892029
+s20624
+
+N/Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/Objects-normal/i386/Day24.LinkFileList
+c000000004CC3AEF100000000000001D4
+t1287892721
+s468
+
+N/Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/Objects-normal/i386/Day24AppDelegate.o
+t1287892724
+s48420
+
+N/Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/Objects-normal/i386/FlipsideViewController.o
+t1287892724
+s37764
+
+N/Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/Objects-normal/i386/MainViewController.o
+t1287892724
+s40828
+
+N/Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/Objects-normal/i386/main.o
+t1287892724
+s6280
+
+N/Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app
+t1287893104
+s476
+
+N/Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app.dSYM
+t1287892724
+s102
+
+N/Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app/Day24
+t1287892724
+s19244
+
+N/Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app/Default.png
+t1287892722
+s180155
+
+N/Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app/FlipsideView.nib
+t1287893104
+s3260
+
+N/Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app/Info.plist
+t1287892721
+s583
+
+N/Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app/MainView.nib
+t1287892722
+s2345
+
+N/Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app/MainWindow.nib
+t1287892722
+s1707
+
+N/Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app/PkgInfo
+t1287892721
+s8
+
+N/Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app/fire01.png
+t1287892722
+s192457
+
+N/Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app/fire02.png
+t1287892722
+s189109
+
+N/Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app/fire03.png
+t1287892722
+s180963
+
+N/Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app/fire04.png
+t1287892722
+s161457
+
+N/Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app/fire05.png
+t1287892722
+s101641
+
+N/Users/Kevin/Desktop/Day24/fire01.png
+c000000004C50BCA8000000000002EFC9
+t1280359592
+s192457
+
+N/Users/Kevin/Desktop/Day24/fire02.png
+c000000004C50BCD2000000000002E2B5
+t1280359634
+s189109
+
+N/Users/Kevin/Desktop/Day24/fire03.png
+c000000004C50BD7A000000000002C2E3
+t1280359802
+s180963
+
+N/Users/Kevin/Desktop/Day24/fire04.png
+c000000004C50BD4D00000000000276B1
+t1280359757
+s161457
+
+N/Users/Kevin/Desktop/Day24/fire05.png
+c000000004C50BD980000000000018D09
+t1280359832
+s101641
+
+N/Users/Kevin/Desktop/Day24/main.m
+c000000004CC3AC3D0000000000000163
+t1287892029
+s355
+i<UIKit/UIKit.h>
+
+N/new/Day24/Classes/Day24AppDelegate.h
+c000000004CC3AC3D00000000000001D4
+t1287892029
+s468
+i<UIKit/UIKit.h>
+
+N/new/Day24/Classes/Day24AppDelegate.m
+c000000004CC3AC3D0000000000000A8F
+t1287892029
+s2703
+i"Day24AppDelegate.h"
+i"MainViewController.h"
+
+N/new/Day24/Classes/FlipsideViewController.h
+c000000004CC93A51000000000000024A
+t1288256081
+s586
+i<UIKit/UIKit.h>
+
+N/new/Day24/Classes/FlipsideViewController.m
+c000000004CC93A51000000000000046F
+t1288256081
+s1135
+i"FlipsideViewController.h"
+
+N/new/Day24/Classes/MainViewController.h
+c000000004CC93A510000000000000170
+t1288256081
+s368
+i"FlipsideViewController.h"
+i<QuartzCore/QuartzCore.h>
+
+N/new/Day24/Classes/MainViewController.m
+c000000004CC93A510000000000000801
+t1288256081
+s2049
+i"MainViewController.h"
+
+N/new/Day24/Day24_Prefix.pch
+c000000004CC3AC3D000000000000013C
+t1287892029
+s316
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/new/Day24/Default.png
+c000000004C50C1D4000000000002BFBB
+t1280360916
+s180155
+
+N/new/Day24/FlipsideView.xib
+c000000004CC3B06700000000000059BC
+t1287893095
+s22972
+
+N/new/Day24/MainView.xib
+c000000004CC3AEE60000000000004950
+t1287892710
+s18768
+
+N/new/Day24/MainWindow.xib
+c000000004CC3AC3D0000000000005090
+t1287892029
+s20624
+
+N/new/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/Objects-normal/i386/Day24.LinkFileList
+c000000004CC3AEF100000000000001D4
+t1287892721
+s468
+
+N/new/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/Objects-normal/i386/Day24AppDelegate.o
+t1287892724
+s48420
+
+N/new/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/Objects-normal/i386/FlipsideViewController.o
+t1287892724
+s37764
+
+N/new/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/Objects-normal/i386/MainViewController.o
+t1287892724
+s40828
+
+N/new/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/Objects-normal/i386/main.o
+t1287892724
+s6280
+
+N/new/Day24/build/Debug-iphonesimulator/Day24.app
+t1287893104
+s476
+
+N/new/Day24/build/Debug-iphonesimulator/Day24.app.dSYM
+t1287892724
+s102
+
+N/new/Day24/build/Debug-iphonesimulator/Day24.app/Day24
+t1287892724
+s19244
+
+N/new/Day24/build/Debug-iphonesimulator/Day24.app/Default.png
+t1287892722
+s180155
+
+N/new/Day24/build/Debug-iphonesimulator/Day24.app/FlipsideView.nib
+t1287893104
+s3260
+
+N/new/Day24/build/Debug-iphonesimulator/Day24.app/Info.plist
+t1287892721
+s583
+
+N/new/Day24/build/Debug-iphonesimulator/Day24.app/MainView.nib
+t1287892722
+s2345
+
+N/new/Day24/build/Debug-iphonesimulator/Day24.app/MainWindow.nib
+t1287892722
+s1707
+
+N/new/Day24/build/Debug-iphonesimulator/Day24.app/PkgInfo
+t1287892721
+s8
+
+N/new/Day24/build/Debug-iphonesimulator/Day24.app/fire01.png
+t1287892722
+s192457
+
+N/new/Day24/build/Debug-iphonesimulator/Day24.app/fire02.png
+t1287892722
+s189109
+
+N/new/Day24/build/Debug-iphonesimulator/Day24.app/fire03.png
+t1287892722
+s180963
+
+N/new/Day24/build/Debug-iphonesimulator/Day24.app/fire04.png
+t1287892722
+s161457
+
+N/new/Day24/build/Debug-iphonesimulator/Day24.app/fire05.png
+t1287892722
+s101641
+
+N/new/Day24/fire01.png
+c000000004C50BCA8000000000002EFC9
+t1280359592
+s192457
+
+N/new/Day24/fire02.png
+c000000004C50BCD2000000000002E2B5
+t1280359634
+s189109
+
+N/new/Day24/fire03.png
+c000000004C50BD7A000000000002C2E3
+t1280359802
+s180963
+
+N/new/Day24/fire04.png
+c000000004C50BD4D00000000000276B1
+t1280359757
+s161457
+
+N/new/Day24/fire05.png
+c000000004C50BD980000000000018D09
+t1280359832
+s101641
+
+N/new/Day24/main.m
+c000000004CC3AC3D0000000000000163
+t1287892029
+s355
+i<UIKit/UIKit.h>
+
+N/var/folders/cd/cdPtmTJXGhC4BynvsqnzcE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Day24_Prefix-bzreldvbkylcmadxrwvvxfshwcvs/Day24_Prefix.pch.gch
+t1287892724
+s15211536
+
+N/var/folders/cd/cdPtmTJXGhC4BynvsqnzcE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Day24_Prefix-fkzwspiydivzwpazuomnluyevcmt/Day24_Prefix.pch.gch
+t2
+s0
+
+NDay24-Info.plist
+c000000004CC3AC3D000000000000038D
+t1287892029
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies309585977#309585977#0(0"0(0#1#0"8590186080#0"0#
+
+CCompileC build/Day24.build/Debug-iphonesimulator/Day24.build/Objects-normal/i386/Day24AppDelegate.o /Users/Kevin/Desktop/Day24/Classes/Day24AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309585524.438294
+e309585524.566111
+r1
+xCompileC
+xbuild/Day24.build/Debug-iphonesimulator/Day24.build/Objects-normal/i386/Day24AppDelegate.o
+x/Users/Kevin/Desktop/Day24/Classes/Day24AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/Kevin/Desktop/Day24/Classes/Day24AppDelegate.m309585524#309585524#0(0"0(0#0#53"/Users/Kevin/Desktop/Day24/Classes/Day24AppDelegate.m8610848736#1774"    cd /Users/Kevin/Desktop/Day24    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/Day24-generated-files.hmap -I/Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/Day24-own-target-headers.hmap -I/Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/Day24-all-target-headers.hmap -iquote /Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/Day24-project-headers.hmap -F/Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator -I/Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/include -I/Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/DerivedSources/i386 -I/Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/DerivedSources -include /var/folders/cd/cdPtmTJXGhC4BynvsqnzcE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Day24_Prefix-bzreldvbkylcmadxrwvvxfshwcvs/Day24_Prefix.pch -c /Users/Kevin/Desktop/Day24/Classes/Day24AppDelegate.m -o /Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/Objects-normal/i386/Day24AppDelegate.o0#
+
+CCompileC build/Day24.build/Debug-iphonesimulator/Day24.build/Objects-normal/i386/Day24AppDelegate.o /new/Day24/Classes/Day24AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Day24.build/Debug-iphonesimulator/Day24.build/Objects-normal/i386/FlipsideViewController.o /Users/Kevin/Desktop/Day24/Classes/FlipsideViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309585524.566220
+e309585524.737857
+r1
+xCompileC
+xbuild/Day24.build/Debug-iphonesimulator/Day24.build/Objects-normal/i386/FlipsideViewController.o
+x/Users/Kevin/Desktop/Day24/Classes/FlipsideViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/Kevin/Desktop/Day24/Classes/FlipsideViewController.m309585524#309585524#0(0"0(0#0#59"/Users/Kevin/Desktop/Day24/Classes/FlipsideViewController.m8610440608#1786"    cd /Users/Kevin/Desktop/Day24    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/Day24-generated-files.hmap -I/Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/Day24-own-target-headers.hmap -I/Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/Day24-all-target-headers.hmap -iquote /Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/Day24-project-headers.hmap -F/Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator -I/Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/include -I/Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/DerivedSources/i386 -I/Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/DerivedSources -include /var/folders/cd/cdPtmTJXGhC4BynvsqnzcE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Day24_Prefix-bzreldvbkylcmadxrwvvxfshwcvs/Day24_Prefix.pch -c /Users/Kevin/Desktop/Day24/Classes/FlipsideViewController.m -o /Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/Objects-normal/i386/FlipsideViewController.o0#
+
+CCompileC build/Day24.build/Debug-iphonesimulator/Day24.build/Objects-normal/i386/FlipsideViewController.o /new/Day24/Classes/FlipsideViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Day24.build/Debug-iphonesimulator/Day24.build/Objects-normal/i386/MainViewController.o /Users/Kevin/Desktop/Day24/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309585524.509492
+e309585524.683327
+r1
+xCompileC
+xbuild/Day24.build/Debug-iphonesimulator/Day24.build/Objects-normal/i386/MainViewController.o
+x/Users/Kevin/Desktop/Day24/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/Kevin/Desktop/Day24/Classes/MainViewController.m309585524#309585524#0(0"0(0#0#55"/Users/Kevin/Desktop/Day24/Classes/MainViewController.m8610579712#1778"    cd /Users/Kevin/Desktop/Day24    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/Day24-generated-files.hmap -I/Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/Day24-own-target-headers.hmap -I/Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/Day24-all-target-headers.hmap -iquote /Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/Day24-project-headers.hmap -F/Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator -I/Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/include -I/Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/DerivedSources/i386 -I/Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/DerivedSources -include /var/folders/cd/cdPtmTJXGhC4BynvsqnzcE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Day24_Prefix-bzreldvbkylcmadxrwvvxfshwcvs/Day24_Prefix.pch -c /Users/Kevin/Desktop/Day24/Classes/MainViewController.m -o /Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/Objects-normal/i386/MainViewController.o0#
+
+CCompileC build/Day24.build/Debug-iphonesimulator/Day24.build/Objects-normal/i386/MainViewController.o /new/Day24/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Day24.build/Debug-iphonesimulator/Day24.build/Objects-normal/i386/main.o /Users/Kevin/Desktop/Day24/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309585524.437103
+e309585524.509381
+r1
+xCompileC
+xbuild/Day24.build/Debug-iphonesimulator/Day24.build/Objects-normal/i386/main.o
+x/Users/Kevin/Desktop/Day24/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Compile /Users/Kevin/Desktop/Day24/main.m309585524#309585524#0(0"0(0#0#33"/Users/Kevin/Desktop/Day24/main.m8610416736#1742"    cd /Users/Kevin/Desktop/Day24    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/Day24-generated-files.hmap -I/Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/Day24-own-target-headers.hmap -I/Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/Day24-all-target-headers.hmap -iquote /Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/Day24-project-headers.hmap -F/Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator -I/Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/include -I/Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/DerivedSources/i386 -I/Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/DerivedSources -include /var/folders/cd/cdPtmTJXGhC4BynvsqnzcE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Day24_Prefix-bzreldvbkylcmadxrwvvxfshwcvs/Day24_Prefix.pch -c /Users/Kevin/Desktop/Day24/main.m -o /Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/Objects-normal/i386/main.o0#
+
+CCompileC build/Day24.build/Debug-iphonesimulator/Day24.build/Objects-normal/i386/main.o /new/Day24/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB /Users/Kevin/Desktop/Day24/FlipsideView.xib
+s309585902.487172
+e309585904.110530
+r1
+xCompileXIB
+x/Users/Kevin/Desktop/Day24/FlipsideView.xib
+lSLF07#2@27"CompileXIB FlipsideView.xib309585902#309585904#0(0"0(0#0#43"/Users/Kevin/Desktop/Day24/FlipsideView.xib8610653632#536"    cd /Users/Kevin/Desktop/Day24    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app/FlipsideView.nib /Users/Kevin/Desktop/Day24/FlipsideView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/Kevin/Desktop/Day24/MainView.xib
+s309585521.558222
+e309585522.529730
+r1
+xCompileXIB
+x/Users/Kevin/Desktop/Day24/MainView.xib
+lSLF07#2@23"CompileXIB MainView.xib309585521#309585522#0(0"0(0#0#39"/Users/Kevin/Desktop/Day24/MainView.xib8610991296#528"    cd /Users/Kevin/Desktop/Day24    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app/MainView.nib /Users/Kevin/Desktop/Day24/MainView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/Kevin/Desktop/Day24/MainWindow.xib
+s309585522.523220
+e309585522.965823
+r1
+xCompileXIB
+x/Users/Kevin/Desktop/Day24/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib309585522#309585522#0(0"0(0#0#41"/Users/Kevin/Desktop/Day24/MainWindow.xib8610791776#532"    cd /Users/Kevin/Desktop/Day24    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app/MainWindow.nib /Users/Kevin/Desktop/Day24/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /new/Day24/FlipsideView.xib
+r0
+
+CCompileXIB /new/Day24/MainView.xib
+r0
+
+CCompileXIB /new/Day24/MainWindow.xib
+r0
+
+CCpResource build/Debug-iphonesimulator/Day24.app/Default.png Default.png
+s309585522.529842
+e309585522.600788
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Day24.app/Default.png
+xDefault.png
+lSLF07#2@16"Copy Default.png309585522#309585522#0(0"0(0#0#38"/Users/Kevin/Desktop/Day24/Default.png8604821696#417"    cd /Users/Kevin/Desktop/Day24    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Kevin/Desktop/Day24/Default.png /Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app0#
+
+CCpResource build/Debug-iphonesimulator/Day24.app/fire01.png fire01.png
+s309585522.531159
+e309585522.593846
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Day24.app/fire01.png
+xfire01.png
+lSLF07#2@15"Copy fire01.png309585522#309585522#0(0"0(0#0#37"/Users/Kevin/Desktop/Day24/fire01.png8603896096#416"    cd /Users/Kevin/Desktop/Day24    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Kevin/Desktop/Day24/fire01.png /Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app0#
+
+CCpResource build/Debug-iphonesimulator/Day24.app/fire02.png fire02.png
+s309585522.533195
+e309585522.593614
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Day24.app/fire02.png
+xfire02.png
+lSLF07#2@15"Copy fire02.png309585522#309585522#0(0"0(0#0#37"/Users/Kevin/Desktop/Day24/fire02.png8602501696#416"    cd /Users/Kevin/Desktop/Day24    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Kevin/Desktop/Day24/fire02.png /Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app0#
+
+CCpResource build/Debug-iphonesimulator/Day24.app/fire03.png fire03.png
+s309585522.535074
+e309585522.603407
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Day24.app/fire03.png
+xfire03.png
+lSLF07#2@15"Copy fire03.png309585522#309585522#0(0"0(0#0#37"/Users/Kevin/Desktop/Day24/fire03.png8611101920#416"    cd /Users/Kevin/Desktop/Day24    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Kevin/Desktop/Day24/fire03.png /Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app0#
+
+CCpResource build/Debug-iphonesimulator/Day24.app/fire04.png fire04.png
+s309585522.536984
+e309585522.601372
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Day24.app/fire04.png
+xfire04.png
+lSLF07#2@15"Copy fire04.png309585522#309585522#0(0"0(0#0#37"/Users/Kevin/Desktop/Day24/fire04.png8611609696#416"    cd /Users/Kevin/Desktop/Day24    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Kevin/Desktop/Day24/fire04.png /Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app0#
+
+CCpResource build/Debug-iphonesimulator/Day24.app/fire05.png fire05.png
+s309585522.538801
+e309585522.600139
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Day24.app/fire05.png
+xfire05.png
+lSLF07#2@15"Copy fire05.png309585522#309585522#0(0"0(0#0#37"/Users/Kevin/Desktop/Day24/fire05.png8604017216#416"    cd /Users/Kevin/Desktop/Day24    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Kevin/Desktop/Day24/fire05.png /Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app0#
+
+CGenerateDSYMFile /Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app.dSYM /Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app/Day24
+s309585524.833653
+e309585524.853000
+r1
+xGenerateDSYMFile
+x/Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app.dSYM
+x/Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app/Day24
+lSLF07#2@103"GenerateDSYMFile build/Debug-iphonesimulator/Day24.app.dSYM build/Debug-iphonesimulator/Day24.app/Day24309585524#309585524#0(0"0(0#0#70"/Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app/Day248610679648#341"    cd /Users/Kevin/Desktop/Day24    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app/Day24 -o /Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app.dSYM0#
+
+CGenerateDSYMFile /new/Day24/build/Debug-iphonesimulator/Day24.app.dSYM /new/Day24/build/Debug-iphonesimulator/Day24.app/Day24
+r0
+
+CLd /Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app/Day24 normal i386
+s309585524.737964
+e309585524.833536
+r1
+xLd
+x/Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app/Day24
+xnormal
+xi386
+lSLF07#2@75"Link /Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app/Day24309585524#309585524#0(0"0(0#0#0"8610962272#852"    cd /Users/Kevin/Desktop/Day24    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator -F/Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator -filelist /Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/Objects-normal/i386/Day24.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o /Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app/Day240#
+
+CLd /new/Day24/build/Debug-iphonesimulator/Day24.app/Day24 normal i386
+r0
+
+CProcessInfoPlistFile /Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app/Info.plist Day24-Info.plist
+s309585521.511585
+e309585521.557200
+r1
+xProcessInfoPlistFile
+x/Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app/Info.plist
+xDay24-Info.plist
+lSLF07#2@24"Process Day24-Info.plist309585521#309585521#0(0"0(0#0#43"/Users/Kevin/Desktop/Day24/Day24-Info.plist13229813538947188#437"    cd /Users/Kevin/Desktop/Day24    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Day24-Info.plist -genpkginfo /Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app/Info.plist0#
+
+CProcessInfoPlistFile /new/Day24/build/Debug-iphonesimulator/Day24.app/Info.plist Day24-Info.plist
+r0
+
+CProcessPCH /var/folders/cd/cdPtmTJXGhC4BynvsqnzcE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Day24_Prefix-bzreldvbkylcmadxrwvvxfshwcvs/Day24_Prefix.pch.gch Day24_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s309585522.966005
+e309585524.436876
+r1
+xProcessPCH
+x/var/folders/cd/cdPtmTJXGhC4BynvsqnzcE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Day24_Prefix-bzreldvbkylcmadxrwvvxfshwcvs/Day24_Prefix.pch.gch
+xDay24_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile Day24_Prefix.pch309585522#309585524#0(0"0(0#0#43"/Users/Kevin/Desktop/Day24/Day24_Prefix.pch8610995968#1648"    cd /Users/Kevin/Desktop/Day24    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/Day24-generated-files.hmap -I/Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/Day24-own-target-headers.hmap -I/Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/Day24-all-target-headers.hmap -iquote /Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/Day24-project-headers.hmap -F/Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator -I/Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/include -I/Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/DerivedSources/i386 -I/Users/Kevin/Desktop/Day24/build/Day24.build/Debug-iphonesimulator/Day24.build/DerivedSources -c /Users/Kevin/Desktop/Day24/Day24_Prefix.pch -o /var/folders/cd/cdPtmTJXGhC4BynvsqnzcE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Day24_Prefix-bzreldvbkylcmadxrwvvxfshwcvs/Day24_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/cd/cdPtmTJXGhC4BynvsqnzcE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Day24_Prefix-fkzwspiydivzwpazuomnluyevcmt/Day24_Prefix.pch.gch Day24_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch /Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app
+s309585904.111443
+e309585904.123084
+r1
+xTouch
+x/Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app
+lSLF07#2@70"Touch /Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app309585904#309585904#0(0"0(0#0#0"8611609312#252"    cd /Users/Kevin/Desktop/Day24    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Kevin/Desktop/Day24/build/Debug-iphonesimulator/Day24.app0#
+
+CTouch /new/Day24/build/Debug-iphonesimulator/Day24.app
+r0
+

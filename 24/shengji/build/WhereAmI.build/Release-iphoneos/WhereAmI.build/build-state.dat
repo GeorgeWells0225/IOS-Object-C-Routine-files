@@ -1,0 +1,536 @@
+TWhereAmI
+v7
+r2
+t336458446.469451
+cCheck dependencies
+cProcessInfoPlistFile /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app/Info.plist WhereAmI-Info.plist
+cCompileXIB /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/FlipsideView.xib
+cCompileXIB /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/MainView.xib
+cCompileXIB /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/MainWindow.xib
+cProcessPCH /var/folders/s9/s9U+Vp-ZGCWLDIhSkLYGWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-ccpxgbhdbdplfuhcfruhpswhurjf/WhereAmI_Prefix.pch.gch WhereAmI_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/s9/s9U+Vp-ZGCWLDIhSkLYGWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-fimqpcejtryqcmcvjyzcdoptoxqo/WhereAmI_Prefix.pch.gch WhereAmI_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv6/main.o /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv6/WhereAmIAppDelegate.o /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/WhereAmIAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv6/MainViewController.o /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/MainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv6/FlipsideViewController.o /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/FlipsideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv6/MapLocation.o /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/MapLocation.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv6/WhereAmI normal armv6
+cCompileC build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv7/main.o /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv7/WhereAmIAppDelegate.o /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/WhereAmIAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv7/MainViewController.o /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv7/FlipsideViewController.o /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/FlipsideViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv7/MapLocation.o /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/MapLocation.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv7/WhereAmI normal armv7
+cCreateUniversalBinary /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app/WhereAmI normal "armv6 armv7"
+cGenerateDSYMFile /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app.dSYM /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app/WhereAmI
+cTouch /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app
+cValidate /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004E59BAA90000000000000110
+t1314503337
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004CC11B5300000000000D96F0
+t1287723859
+s890608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManagerDelegate.h
+c000000004CC11B430000000000000C73
+t1287723843
+s3187
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004CC11B4300000000000001D0
+t1287723843
+s464
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004CC11D4800000000000002FE
+t1287724360
+s766
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004CC11D62000000000029CFA0
+t1287724386
+s2740128
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/Availability.h
+c000000004CB3FBB80000000000001ADD
+t1286863800
+s6877
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/FlipsideViewController.h
+c000000004E5C6E310000000000000377
+t1314680369
+s887
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i<MapKit/MapKit.h>
+i"MapLocation.h"
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/FlipsideViewController.m
+c000000004E5C7EAC0000000000000ED7
+t1314684588
+s3799
+i"FlipsideViewController.h"
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/MainViewController.h
+c000000004E5C35220000000000000373
+t1314665762
+s883
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i<CoreLocation/CLLocationManagerDelegate.h>
+i"FlipsideViewController.h"
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/MainViewController.m
+c000000004E5C4BBF0000000000000D51
+t1314671551
+s3409
+i"MainViewController.h"
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/MapLocation.h
+c000000004E5C7ED20000000000000203
+t1314684626
+s515
+i<Foundation/Foundation.h>
+i<MapKit/MapKit.h>
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/WhereAmIAppDelegate.h
+c000000004E5B08EE00000000000001D9
+t1314588910
+s473
+i<UIKit/UIKit.h>
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/WhereAmIAppDelegate.m
+c000000004E5B08EE0000000000000AA1
+t1314588910
+s2721
+i"WhereAmIAppDelegate.h"
+i"MainViewController.h"
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/FlipsideView.xib
+c000000004E5C65DA0000000000005F9F
+t1314678234
+s24479
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/MainView.xib
+c000000004E5C49C50000000000008655
+t1314671045
+s34389
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/MainWindow.xib
+c000000004E5B08EE000000000000509C
+t1314588910
+s20636
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/MapLocation.h
+c000000004E5C7F070000000000000203
+t1314684679
+s515
+i<Foundation/Foundation.h>
+i<MapKit/MapKit.h>
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/MapLocation.m
+c000000004E5C7F0B000000000000062A
+t1314684683
+s1578
+i"MapLocation.h"
+i<MapKit/MapKit.h>
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/WhereAmI_Prefix.pch
+c000000004E5B08EE0000000000000142
+t1314588910
+s322
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app
+t1314764564
+s272
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app.dSYM
+t1314764564
+s102
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app/FlipsideView.nib
+t1314764562
+s1635
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app/Info.plist
+t1314764561
+s725
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app/MainView.nib
+t1314764561
+s3127
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app/MainWindow.nib
+t1314764561
+s1150
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app/PkgInfo
+t1314764561
+s8
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app/WhereAmI
+t1314764564
+s75708
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv6/FlipsideViewController.o
+t1314764564
+s59888
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv6/MainViewController.o
+t1314764564
+s61940
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv6/MapLocation.o
+t1314764564
+s18900
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv6/WhereAmI
+t1314764564
+s34812
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv6/WhereAmI.LinkFileList
+c000000004E5DB71100000000000002F2
+t1314764561
+s754
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv6/WhereAmIAppDelegate.o
+t1314764564
+s50928
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv6/main.o
+t1314764563
+s6552
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv7/FlipsideViewController.o
+t1314764564
+s59840
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv7/MainViewController.o
+t1314764564
+s61872
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv7/MapLocation.o
+t1314764564
+s18888
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv7/WhereAmI
+t1314764564
+s34748
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv7/WhereAmI.LinkFileList
+c000000004E5DB71100000000000002F2
+t1314764561
+s754
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv7/WhereAmIAppDelegate.o
+t1314764564
+s50940
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv7/main.o
+t1314764564
+s6528
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/main.m
+c000000004E5B08EE0000000000000162
+t1314588910
+s354
+i<UIKit/UIKit.h>
+
+N/var/folders/s9/s9U+Vp-ZGCWLDIhSkLYGWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-ccpxgbhdbdplfuhcfruhpswhurjf/WhereAmI_Prefix.pch.gch
+t1314764563
+s9783000
+
+N/var/folders/s9/s9U+Vp-ZGCWLDIhSkLYGWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-fimqpcejtryqcmcvjyzcdoptoxqo/WhereAmI_Prefix.pch.gch
+t1314764563
+s10249944
+
+NWhereAmI-Info.plist
+c000000004E5B08EE000000000000038D
+t1314588910
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies336458444#336458444#0(0"0(0#1#0"8643767200#0"0#
+
+CCompileC build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv6/FlipsideViewController.o /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/FlipsideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s336457363.758444
+e336457364.205856
+r1
+xCompileC
+xbuild/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv6/FlipsideViewController.o
+x/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/FlipsideViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/FlipsideViewController.m336457363#336457364#0(0"0(0#0#91"/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/FlipsideViewController.m8638722848#2052"    cd "/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-generated-files.hmap -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-own-target-headers.hmap -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-all-target-headers.hmap -iquote /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-project-headers.hmap -F/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/include -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/DerivedSources/armv6 -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/s9/s9U+Vp-ZGCWLDIhSkLYGWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-ccpxgbhdbdplfuhcfruhpswhurjf/WhereAmI_Prefix.pch -c /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/FlipsideViewController.m -o /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv6/FlipsideViewController.o0#
+
+CCompileC build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv6/MainViewController.o /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/MainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s336457363.757082
+e336457364.135957
+r1
+xCompileC
+xbuild/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv6/MainViewController.o
+x/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/MainViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/MainViewController.m336457363#336457364#0(0"0(0#0#87"/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/MainViewController.m8611874752#2044"    cd "/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-generated-files.hmap -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-own-target-headers.hmap -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-all-target-headers.hmap -iquote /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-project-headers.hmap -F/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/include -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/DerivedSources/armv6 -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/s9/s9U+Vp-ZGCWLDIhSkLYGWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-ccpxgbhdbdplfuhcfruhpswhurjf/WhereAmI_Prefix.pch -c /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/MainViewController.m -o /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv6/MainViewController.o0#
+
+CCompileC build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv6/MapLocation.o /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/MapLocation.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s336457363.829854
+e336457364.099203
+r1
+xCompileC
+xbuild/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv6/MapLocation.o
+x/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/MapLocation.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/MapLocation.m336457363#336457364#0(0"0(0#0#72"/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/MapLocation.m8634959872#2022"    cd "/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-generated-files.hmap -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-own-target-headers.hmap -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-all-target-headers.hmap -iquote /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-project-headers.hmap -F/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/include -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/DerivedSources/armv6 -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/s9/s9U+Vp-ZGCWLDIhSkLYGWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-ccpxgbhdbdplfuhcfruhpswhurjf/WhereAmI_Prefix.pch -c /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/MapLocation.m -o /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv6/MapLocation.o0#
+
+CCompileC build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv6/WhereAmIAppDelegate.o /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/WhereAmIAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s336457363.755824
+e336457364.028784
+r1
+xCompileC
+xbuild/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv6/WhereAmIAppDelegate.o
+x/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/WhereAmIAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/WhereAmIAppDelegate.m336457363#336457364#0(0"0(0#0#88"/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/WhereAmIAppDelegate.m8627411232#2046"    cd "/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-generated-files.hmap -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-own-target-headers.hmap -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-all-target-headers.hmap -iquote /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-project-headers.hmap -F/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/include -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/DerivedSources/armv6 -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/s9/s9U+Vp-ZGCWLDIhSkLYGWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-ccpxgbhdbdplfuhcfruhpswhurjf/WhereAmI_Prefix.pch -c /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/WhereAmIAppDelegate.m -o /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv6/WhereAmIAppDelegate.o0#
+
+CCompileC build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv6/main.o /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s336457363.754415
+e336457363.829771
+r1
+xCompileC
+xbuild/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv6/main.o
+x/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/main.m336457363#336457363#0(0"0(0#0#65"/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/main.m8634387808#2008"    cd "/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-generated-files.hmap -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-own-target-headers.hmap -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-all-target-headers.hmap -iquote /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-project-headers.hmap -F/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/include -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/DerivedSources/armv6 -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/s9/s9U+Vp-ZGCWLDIhSkLYGWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-ccpxgbhdbdplfuhcfruhpswhurjf/WhereAmI_Prefix.pch -c /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/main.m -o /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv7/FlipsideViewController.o /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/FlipsideViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s336457364.136091
+e336457364.387392
+r1
+xCompileC
+xbuild/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv7/FlipsideViewController.o
+x/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/FlipsideViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/FlipsideViewController.m336457364#336457364#0(0"0(0#0#91"/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/FlipsideViewController.m8621852320#2052"    cd "/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-generated-files.hmap -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-own-target-headers.hmap -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-all-target-headers.hmap -iquote /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-project-headers.hmap -F/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/include -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/DerivedSources/armv7 -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/s9/s9U+Vp-ZGCWLDIhSkLYGWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-fimqpcejtryqcmcvjyzcdoptoxqo/WhereAmI_Prefix.pch -c /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/FlipsideViewController.m -o /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv7/FlipsideViewController.o0#
+
+CCompileC build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv7/MainViewController.o /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s336457364.100893
+e336457364.333011
+r1
+xCompileC
+xbuild/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv7/MainViewController.o
+x/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/MainViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/MainViewController.m336457364#336457364#0(0"0(0#0#87"/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/MainViewController.m8625796352#2044"    cd "/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-generated-files.hmap -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-own-target-headers.hmap -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-all-target-headers.hmap -iquote /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-project-headers.hmap -F/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/include -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/DerivedSources/armv7 -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/s9/s9U+Vp-ZGCWLDIhSkLYGWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-fimqpcejtryqcmcvjyzcdoptoxqo/WhereAmI_Prefix.pch -c /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/MainViewController.m -o /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv7/MainViewController.o0#
+
+CCompileC build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv7/MapLocation.o /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/MapLocation.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s336457364.251709
+e336457364.455092
+r1
+xCompileC
+xbuild/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv7/MapLocation.o
+x/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/MapLocation.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/MapLocation.m336457364#336457364#0(0"0(0#0#72"/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/MapLocation.m8636723712#2022"    cd "/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-generated-files.hmap -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-own-target-headers.hmap -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-all-target-headers.hmap -iquote /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-project-headers.hmap -F/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/include -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/DerivedSources/armv7 -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/s9/s9U+Vp-ZGCWLDIhSkLYGWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-fimqpcejtryqcmcvjyzcdoptoxqo/WhereAmI_Prefix.pch -c /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/MapLocation.m -o /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv7/MapLocation.o0#
+
+CCompileC build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv7/WhereAmIAppDelegate.o /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/WhereAmIAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s336457364.099415
+e336457364.251578
+r1
+xCompileC
+xbuild/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv7/WhereAmIAppDelegate.o
+x/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/WhereAmIAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/WhereAmIAppDelegate.m336457364#336457364#0(0"0(0#0#88"/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/WhereAmIAppDelegate.m8627001216#2046"    cd "/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-generated-files.hmap -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-own-target-headers.hmap -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-all-target-headers.hmap -iquote /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-project-headers.hmap -F/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/include -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/DerivedSources/armv7 -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/s9/s9U+Vp-ZGCWLDIhSkLYGWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-fimqpcejtryqcmcvjyzcdoptoxqo/WhereAmI_Prefix.pch -c /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/Classes/WhereAmIAppDelegate.m -o /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv7/WhereAmIAppDelegate.o0#
+
+CCompileC build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv7/main.o /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s336457364.028908
+e336457364.100770
+r1
+xCompileC
+xbuild/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv7/main.o
+x/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/main.m336457364#336457364#0(0"0(0#0#65"/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/main.m8627814944#2008"    cd "/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-generated-files.hmap -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-own-target-headers.hmap -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-all-target-headers.hmap -iquote /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-project-headers.hmap -F/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/include -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/DerivedSources/armv7 -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/s9/s9U+Vp-ZGCWLDIhSkLYGWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-fimqpcejtryqcmcvjyzcdoptoxqo/WhereAmI_Prefix.pch -c /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/main.m -o /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/FlipsideView.xib
+s336457361.225792
+e336457362.283803
+r1
+xCompileXIB
+x/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/FlipsideView.xib
+lSLF07#2@27"CompileXIB FlipsideView.xib336457361#336457362#0(0"0(0#0#75"/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/FlipsideView.xib8638499392#611"    cd "/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app/FlipsideView.nib /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/FlipsideView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/MainView.xib
+s336457361.226512
+e336457362.122511
+r1
+xCompileXIB
+x/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/MainView.xib
+lSLF07#2@23"CompileXIB MainView.xib336457361#336457362#0(0"0(0#0#71"/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/MainView.xib8636814496#603"    cd "/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app/MainView.nib /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/MainView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/MainWindow.xib
+s336457361.227434
+e336457361.942218
+r1
+xCompileXIB
+x/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib336457361#336457361#0(0"0(0#0#73"/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/MainWindow.xib8634520672#607"    cd "/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app/MainWindow.nib /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCreateUniversalBinary /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app/WhereAmI normal "armv6 armv7"
+s336457364.518316
+e336457364.521167
+r1
+xCreateUniversalBinary
+x/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app/WhereAmI
+xnormal
+xarmv6 armv7
+lSLF07#2@87"CreateUniversalBinary build/Release-iphoneos/WhereAmI.app/WhereAmI normal "armv6 armv7"336457364#336457364#0(0"0(0#0#70"/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/armv6 armv78621881888#614"    cd "/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv6/WhereAmI /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv7/WhereAmI -output /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app/WhereAmI0#
+
+CGenerateDSYMFile /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app.dSYM /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app/WhereAmI
+s336457364.521239
+e336457364.582608
+r1
+xGenerateDSYMFile
+x/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app.dSYM
+x/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app/WhereAmI
+lSLF07#2@102"GenerateDSYMFile build/Release-iphoneos/WhereAmI.app.dSYM build/Release-iphoneos/WhereAmI.app/WhereAmI336457364#336457364#0(0"0(0#0#103"/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app/WhereAmI8610878240#431"    cd "/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app/WhereAmI -o /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app.dSYM0#
+
+CLd /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv6/WhereAmI normal armv6
+s336457364.206829
+e336457364.391677
+r1
+xLd
+x/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv6/WhereAmI
+xnormal
+xarmv6
+lSLF07#2@146"Link /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv6/WhereAmI336457364#336457364#0(0"0(0#0#0"8609177952#1017"    cd "/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos -F/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos -filelist /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv6/WhereAmI.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit -o /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv6/WhereAmI0#
+
+CLd /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv7/WhereAmI normal armv7
+s336457364.455199
+e336457364.518234
+r1
+xLd
+x/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv7/WhereAmI
+xnormal
+xarmv7
+lSLF07#2@146"Link /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv7/WhereAmI336457364#336457364#0(0"0(0#0#0"8626586304#1017"    cd "/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos -F/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos -filelist /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv7/WhereAmI.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit -o /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/Objects-normal/armv7/WhereAmI0#
+
+CProcessInfoPlistFile /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app/Info.plist WhereAmI-Info.plist
+s336457361.221502
+e336457361.225651
+r1
+xProcessInfoPlistFile
+x/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app/Info.plist
+xWhereAmI-Info.plist
+lSLF07#2@27"Process WhereAmI-Info.plist336457361#336457361#0(0"0(0#0#78"/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/WhereAmI-Info.plist8625004096#520"    cd "/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility WhereAmI-Info.plist -genpkginfo /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -o /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app/Info.plist0#
+
+CProcessPCH /var/folders/s9/s9U+Vp-ZGCWLDIhSkLYGWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-ccpxgbhdbdplfuhcfruhpswhurjf/WhereAmI_Prefix.pch.gch WhereAmI_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s336457362.283913
+e336457363.569134
+r1
+xProcessPCH
+x/var/folders/s9/s9U+Vp-ZGCWLDIhSkLYGWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-ccpxgbhdbdplfuhcfruhpswhurjf/WhereAmI_Prefix.pch.gch
+xWhereAmI_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile WhereAmI_Prefix.pch336457362#336457363#0(0"0(0#0#78"/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/WhereAmI_Prefix.pch8634531200#1883"    cd "/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-generated-files.hmap -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-own-target-headers.hmap -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-all-target-headers.hmap -iquote /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-project-headers.hmap -F/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/include -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/DerivedSources/armv6 -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/WhereAmI_Prefix.pch -o /var/folders/s9/s9U+Vp-ZGCWLDIhSkLYGWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-ccpxgbhdbdplfuhcfruhpswhurjf/WhereAmI_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/s9/s9U+Vp-ZGCWLDIhSkLYGWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-fimqpcejtryqcmcvjyzcdoptoxqo/WhereAmI_Prefix.pch.gch WhereAmI_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s336457362.284664
+e336457363.754247
+r1
+xProcessPCH
+x/var/folders/s9/s9U+Vp-ZGCWLDIhSkLYGWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-fimqpcejtryqcmcvjyzcdoptoxqo/WhereAmI_Prefix.pch.gch
+xWhereAmI_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile WhereAmI_Prefix.pch336457362#336457363#0(0"0(0#0#78"/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/WhereAmI_Prefix.pch8634309088#1883"    cd "/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-generated-files.hmap -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-own-target-headers.hmap -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-all-target-headers.hmap -iquote /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/WhereAmI-project-headers.hmap -F/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/include -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/DerivedSources/armv7 -I/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/WhereAmI.build/Release-iphoneos/WhereAmI.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/WhereAmI_Prefix.pch -o /var/folders/s9/s9U+Vp-ZGCWLDIhSkLYGWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-fimqpcejtryqcmcvjyzcdoptoxqo/WhereAmI_Prefix.pch.gch0#
+
+CTouch /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app
+s336457364.582710
+e336457364.585612
+r1
+xTouch
+x/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app
+lSLF07#2@100"Touch /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app336457364#336457364#0(0"0(0#0#0"8608270080#309"    cd "/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app0#
+
+CValidate /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app
+s336458444.447773
+e336458444.549178
+r0
+xValidate
+x/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app
+lSLF07#2@44"Validate build/Release-iphoneos/WhereAmI.app336458444#336458444#0(0"0(0#0#94"/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app8640498688#418"    cd "/Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/tony/Desktop/iOS案例分析/WhereAmI（update-2）/build/Release-iphoneos/WhereAmI.app2#
+

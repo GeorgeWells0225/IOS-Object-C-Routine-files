@@ -1,0 +1,156 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* BigBuckBunny */ = {
+		activeExec = 0;
+		executables = (
+			558D0B0A151B794B00D8441C /* BigBuckBunny */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* BigBuckBunnyViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 398}}";
+			sepNavSelRange = "{54, 164}";
+			sepNavVisRange = "{0, 220}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* BigBuckBunnyViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 816}}";
+			sepNavSelRange = "{1138, 0}";
+			sepNavVisRange = "{3, 937}";
+			sepNavWindowFrame = "{{15, 60}, {1097, 718}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 558D0B0A151B794B00D8441C /* BigBuckBunny */;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* BigBuckBunny */;
+		codeSenseManager = 558D0B22151B796700D8441C /* Code sense */;
+		executables = (
+			558D0B0A151B794B00D8441C /* BigBuckBunny */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					833,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 354125298;
+			PBXWorkspaceStateSaveDate = 354125298;
+		};
+		perUserProjectItems = {
+			558D0B23151B7A2100D8441C = 558D0B23151B7A2100D8441C /* PBXTextBookmark */;
+			558D0B24151B7A2100D8441C = 558D0B24151B7A2100D8441C /* PBXBookmark */;
+			558D0B25151B7A2100D8441C = 558D0B25151B7A2100D8441C /* PBXTextBookmark */;
+			55A26F57151B8607004562DB /* PBXTextBookmark */ = 55A26F57151B8607004562DB /* PBXTextBookmark */;
+			55A26F58151B8607004562DB /* PBXTextBookmark */ = 55A26F58151B8607004562DB /* PBXTextBookmark */;
+		};
+		sourceControlManager = 558D0B21151B796700D8441C /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	558D0B0A151B794B00D8441C /* BigBuckBunny */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = BigBuckBunny;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	558D0B21151B796700D8441C /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	558D0B22151B796700D8441C /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	558D0B23151B7A2100D8441C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* BigBuckBunnyViewController.h */;
+		name = "BigBuckBunnyViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 220;
+		vrLoc = 0;
+	};
+	558D0B24151B7A2100D8441C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* BigBuckBunnyViewController.m */;
+	};
+	558D0B25151B7A2100D8441C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* BigBuckBunnyViewController.m */;
+		name = "BigBuckBunnyViewController.m: 32";
+		rLen = 0;
+		rLoc = 1138;
+		rType = 0;
+		vrLen = 940;
+		vrLoc = 0;
+	};
+	55A26F57151B8607004562DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* BigBuckBunnyViewController.m */;
+		name = "BigBuckBunnyViewController.m: 32";
+		rLen = 0;
+		rLoc = 1138;
+		rType = 0;
+		vrLen = 937;
+		vrLoc = 3;
+	};
+	55A26F58151B8607004562DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* BigBuckBunnyViewController.h */;
+		name = "BigBuckBunnyViewController.h: 5";
+		rLen = 164;
+		rLoc = 54;
+		rType = 0;
+		vrLen = 220;
+		vrLoc = 0;
+	};
+}

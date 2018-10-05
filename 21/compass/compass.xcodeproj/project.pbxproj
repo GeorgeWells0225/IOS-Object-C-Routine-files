@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACA24A5C165FC17500FD3E54 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA24A5B165FC17500FD3E54 /* Default-568h@2x.png */; };
+		C3E90FD414C3FB9800130DF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E90FD314C3FB9800130DF0 /* UIKit.framework */; };
+		C3E90FD614C3FB9800130DF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E90FD514C3FB9800130DF0 /* Foundation.framework */; };
+		C3E90FDC14C3FB9800130DF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3E90FDA14C3FB9800130DF0 /* InfoPlist.strings */; };
+		C3E90FDE14C3FB9800130DF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E90FDD14C3FB9800130DF0 /* main.m */; };
+		C3E90FE214C3FB9800130DF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E90FE114C3FB9800130DF0 /* AppDelegate.m */; };
+		C3E90FEA14C3FBBC00130DF0 /* CompassView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E90FE914C3FBBC00130DF0 /* CompassView.m */; };
+		C3E90FED14C3FBFF00130DF0 /* CompassLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E90FEC14C3FBFF00130DF0 /* CompassLayer.m */; };
+		C3E90FEF14C3FC1100130DF0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E90FEE14C3FC1100130DF0 /* CoreGraphics.framework */; };
+		C3E90FF114C3FC2000130DF0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E90FF014C3FC2000130DF0 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ACA24A5B165FC17500FD3E54 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C3E90FCF14C3FB9800130DF0 /* compass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = compass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3E90FD314C3FB9800130DF0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C3E90FD514C3FB9800130DF0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3E90FD914C3FB9800130DF0 /* compass-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "compass-Info.plist"; sourceTree = "<group>"; };
+		C3E90FDB14C3FB9800130DF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3E90FDD14C3FB9800130DF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3E90FDF14C3FB9800130DF0 /* compass-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "compass-Prefix.pch"; sourceTree = "<group>"; };
+		C3E90FE014C3FB9800130DF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C3E90FE114C3FB9800130DF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C3E90FE814C3FBBC00130DF0 /* CompassView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompassView.h; sourceTree = "<group>"; };
+		C3E90FE914C3FBBC00130DF0 /* CompassView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompassView.m; sourceTree = "<group>"; };
+		C3E90FEB14C3FBFF00130DF0 /* CompassLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompassLayer.h; sourceTree = "<group>"; };
+		C3E90FEC14C3FBFF00130DF0 /* CompassLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompassLayer.m; sourceTree = "<group>"; };
+		C3E90FEE14C3FC1100130DF0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C3E90FF014C3FC2000130DF0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3E90FCC14C3FB9800130DF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E90FF114C3FC2000130DF0 /* QuartzCore.framework in Frameworks */,
+				C3E90FEF14C3FC1100130DF0 /* CoreGraphics.framework in Frameworks */,
+				C3E90FD414C3FB9800130DF0 /* UIKit.framework in Frameworks */,
+				C3E90FD614C3FB9800130DF0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3E90FC414C3FB9800130DF0 = {
+			isa = PBXGroup;
+			children = (
+				ACA24A5B165FC17500FD3E54 /* Default-568h@2x.png */,
+				C3E90FD714C3FB9800130DF0 /* compass */,
+				C3E90FD214C3FB9800130DF0 /* Frameworks */,
+				C3E90FD014C3FB9800130DF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3E90FD014C3FB9800130DF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3E90FCF14C3FB9800130DF0 /* compass.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3E90FD214C3FB9800130DF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3E90FF014C3FC2000130DF0 /* QuartzCore.framework */,
+				C3E90FEE14C3FC1100130DF0 /* CoreGraphics.framework */,
+				C3E90FD314C3FB9800130DF0 /* UIKit.framework */,
+				C3E90FD514C3FB9800130DF0 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3E90FD714C3FB9800130DF0 /* compass */ = {
+			isa = PBXGroup;
+			children = (
+				C3E90FE014C3FB9800130DF0 /* AppDelegate.h */,
+				C3E90FE114C3FB9800130DF0 /* AppDelegate.m */,
+				C3E90FE814C3FBBC00130DF0 /* CompassView.h */,
+				C3E90FE914C3FBBC00130DF0 /* CompassView.m */,
+				C3E90FEB14C3FBFF00130DF0 /* CompassLayer.h */,
+				C3E90FEC14C3FBFF00130DF0 /* CompassLayer.m */,
+				C3E90FD814C3FB9800130DF0 /* Supporting Files */,
+			);
+			path = compass;
+			sourceTree = "<group>";
+		};
+		C3E90FD814C3FB9800130DF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3E90FD914C3FB9800130DF0 /* compass-Info.plist */,
+				C3E90FDA14C3FB9800130DF0 /* InfoPlist.strings */,
+				C3E90FDD14C3FB9800130DF0 /* main.m */,
+				C3E90FDF14C3FB9800130DF0 /* compass-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3E90FCE14C3FB9800130DF0 /* compass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3E90FE514C3FB9800130DF0 /* Build configuration list for PBXNativeTarget "compass" */;
+			buildPhases = (
+				C3E90FCB14C3FB9800130DF0 /* Sources */,
+				C3E90FCC14C3FB9800130DF0 /* Frameworks */,
+				C3E90FCD14C3FB9800130DF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = compass;
+			productName = compass;
+			productReference = C3E90FCF14C3FB9800130DF0 /* compass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3E90FC614C3FB9800130DF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+			};
+			buildConfigurationList = C3E90FC914C3FB9800130DF0 /* Build configuration list for PBXProject "compass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C3E90FC414C3FB9800130DF0;
+			productRefGroup = C3E90FD014C3FB9800130DF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3E90FCE14C3FB9800130DF0 /* compass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3E90FCD14C3FB9800130DF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E90FDC14C3FB9800130DF0 /* InfoPlist.strings in Resources */,
+				ACA24A5C165FC17500FD3E54 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3E90FCB14C3FB9800130DF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E90FDE14C3FB9800130DF0 /* main.m in Sources */,
+				C3E90FE214C3FB9800130DF0 /* AppDelegate.m in Sources */,
+				C3E90FEA14C3FBBC00130DF0 /* CompassView.m in Sources */,
+				C3E90FED14C3FBFF00130DF0 /* CompassLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C3E90FDA14C3FB9800130DF0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3E90FDB14C3FB9800130DF0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3E90FE314C3FB9800130DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C3E90FE414C3FB9800130DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3E90FE614C3FB9800130DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "compass/compass-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C3E90FE714C3FB9800130DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "compass/compass-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3E90FC914C3FB9800130DF0 /* Build configuration list for PBXProject "compass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E90FE314C3FB9800130DF0 /* Debug */,
+				C3E90FE414C3FB9800130DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3E90FE514C3FB9800130DF0 /* Build configuration list for PBXNativeTarget "compass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E90FE614C3FB9800130DF0 /* Debug */,
+				C3E90FE714C3FB9800130DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3E90FC614C3FB9800130DF0 /* Project object */;
+}

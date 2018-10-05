@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	0495C5A110856E99009E0AD5 /* UIToolBar */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = UIToolBar;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	0495C5A810856E9E009E0AD5 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	0495C5A910856E9E009E0AD5 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	0495C5BB10857010009E0AD5 /* UIToolBarViewController.m:24 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* UIToolBarViewController.m */;
+		functionName = "-ToolBarBtnAction";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 24;
+		location = UIToolBar;
+		modificationTime = 277180935.484695;
+		state = 1;
+	};
+	0495C5BF10857015009E0AD5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* UIToolBarViewController.h */;
+		name = "UIToolBarViewController.h: 14";
+		rLen = 0;
+		rLoc = 297;
+		rType = 0;
+		vrLen = 335;
+		vrLoc = 0;
+	};
+	0495C5C010857015009E0AD5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0495C5C110857015009E0AD5 /* UIInterface.h */;
+		name = "UIInterface.h: 21";
+		rLen = 14;
+		rLoc = 523;
+		rType = 0;
+		vrLen = 872;
+		vrLoc = 128;
+	};
+	0495C5C110857015009E0AD5 /* UIInterface.h */ = {
+		isa = PBXFileReference;
+		name = UIInterface.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIInterface.h;
+		sourceTree = "<absolute>";
+	};
+	0495C5C510857015009E0AD5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* UIToolBarViewController.h */;
+		name = "UIToolBarViewController.h: 14";
+		rLen = 28;
+		rLoc = 300;
+		rType = 0;
+		vrLen = 281;
+		vrLoc = 0;
+	};
+	0495C5C610857015009E0AD5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UIToolBarViewController.m */;
+		name = "UIToolBarViewController.m: 23";
+		rLen = 0;
+		rLoc = 571;
+		rType = 0;
+		vrLen = 735;
+		vrLoc = 169;
+	};
+	0495C5C710857015009E0AD5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* UIToolBarViewController.h */;
+		name = "UIToolBarViewController.h: 14";
+		rLen = 0;
+		rLoc = 297;
+		rType = 0;
+		vrLen = 335;
+		vrLoc = 0;
+	};
+	0495C5C810857015009E0AD5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UIToolBarViewController.m */;
+		name = "UIToolBarViewController.m: 25";
+		rLen = 0;
+		rLoc = 485;
+		rType = 0;
+		vrLen = 761;
+		vrLoc = 169;
+	};
+	0495C5C910857015009E0AD5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0495C5CA10857015009E0AD5 /* UIInterface.h */;
+		name = "UIInterface.h: 21";
+		rLen = 14;
+		rLoc = 523;
+		rType = 0;
+		vrLen = 872;
+		vrLoc = 128;
+	};
+	0495C5CA10857015009E0AD5 /* UIInterface.h */ = {
+		isa = PBXFileReference;
+		name = UIInterface.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIInterface.h;
+		sourceTree = "<absolute>";
+	};
+	0495C5CB10857015009E0AD5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UIToolBarViewController.m */;
+		name = "UIToolBarViewController.m: 25";
+		rLen = 0;
+		rLoc = 485;
+		rType = 0;
+		vrLen = 779;
+		vrLoc = 169;
+	};
+	0495C5CC10857015009E0AD5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0495C5CD10857015009E0AD5 /* UIBarButtonItem.h */;
+		name = "UIBarButtonItem.h: 38";
+		rLen = 27;
+		rLoc = 1015;
+		rType = 0;
+		vrLen = 1028;
+		vrLoc = 441;
+	};
+	0495C5CD10857015009E0AD5 /* UIBarButtonItem.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIBarButtonItem.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIBarButtonItem.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {755, 1316}}";
+			sepNavSelRange = "{613, 32}";
+			sepNavVisRange = "{98, 978}";
+		};
+	};
+	0495C5EA108570CD009E0AD5 /* UIToolBarViewController.m:23 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* UIToolBarViewController.m */;
+		functionName = "-ToolBarBtnAction";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 23;
+		location = UIToolBar;
+		modificationTime = 277180935.543257;
+		state = 1;
+	};
+	0495C5EC108570CF009E0AD5 /* UIToolBarViewController.m:19 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* UIToolBarViewController.m */;
+		functionName = "-viewDidLoad";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 19;
+		location = UIToolBar;
+		modificationTime = 277180936.176776;
+		state = 1;
+	};
+	0495C62210857280009E0AD5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0495C5CD10857015009E0AD5 /* UIBarButtonItem.h */;
+		name = "UIBarButtonItem.h: 26";
+		rLen = 32;
+		rLoc = 613;
+		rType = 0;
+		vrLen = 978;
+		vrLoc = 98;
+	};
+	0495C62410857280009E0AD5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UIToolBarViewController.m */;
+		name = "UIToolBarViewController.m: 27";
+		rLen = 0;
+		rLoc = 427;
+		rType = 0;
+		vrLen = 697;
+		vrLoc = 211;
+	};
+	0495C62510857280009E0AD5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0495C5CD10857015009E0AD5 /* UIBarButtonItem.h */;
+		name = "UIBarButtonItem.h: 26";
+		rLen = 32;
+		rLoc = 613;
+		rType = 0;
+		vrLen = 978;
+		vrLoc = 98;
+	};
+	0495C636108574BE009E0AD5 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 0495C62D1085743B009E0AD5 /* Pause.png */;
+	};
+	0495C637108574BE009E0AD5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UIToolBarViewController.m */;
+		name = "UIToolBarViewController.m: 19";
+		rLen = 0;
+		rLoc = 355;
+		rType = 0;
+		vrLen = 734;
+		vrLoc = 211;
+	};
+	0495C638108574BE009E0AD5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UIToolBarViewController.m */;
+		name = "UIToolBarViewController.m: 19";
+		rLen = 0;
+		rLoc = 355;
+		rType = 0;
+		vrLen = 734;
+		vrLoc = 211;
+	};
+	0495C639108574BE009E0AD5 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 0495C62D1085743B009E0AD5 /* Pause.png */;
+	};
+	0495C63B108574D1009E0AD5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UIToolBarViewController.m */;
+		name = "UIToolBarViewController.m: 26";
+		rLen = 0;
+		rLoc = 485;
+		rType = 0;
+		vrLen = 787;
+		vrLoc = 211;
+	};
+	1D6058900D05DD3D006BFB54 /* UIToolBar */ = {
+		activeExec = 0;
+		executables = (
+			0495C5A110856E99009E0AD5 /* UIToolBar */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* UIToolBarViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {755, 436}}";
+			sepNavSelRange = "{297, 0}";
+			sepNavVisRange = "{0, 335}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* UIToolBarViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {755, 770}}";
+			sepNavSelRange = "{485, 0}";
+			sepNavVisRange = "{211, 787}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 0495C5A110856E99009E0AD5 /* UIToolBar */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* UIToolBar */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* UIToolBar */,
+		);
+		breakpoints = (
+			0495C5BB10857010009E0AD5 /* UIToolBarViewController.m:24 */,
+			0495C5EA108570CD009E0AD5 /* UIToolBarViewController.m:23 */,
+			0495C5EC108570CF009E0AD5 /* UIToolBarViewController.m:19 */,
+		);
+		codeSenseManager = 0495C5A910856E9E009E0AD5 /* Code sense */;
+		executables = (
+			0495C5A110856E99009E0AD5 /* UIToolBar */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					577,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 277180057;
+			PBXWorkspaceStateSaveDate = 277180057;
+		};
+		perUserProjectItems = {
+			0495C5BF10857015009E0AD5 /* PBXTextBookmark */ = 0495C5BF10857015009E0AD5 /* PBXTextBookmark */;
+			0495C5C010857015009E0AD5 /* PBXTextBookmark */ = 0495C5C010857015009E0AD5 /* PBXTextBookmark */;
+			0495C5C510857015009E0AD5 /* PBXTextBookmark */ = 0495C5C510857015009E0AD5 /* PBXTextBookmark */;
+			0495C5C610857015009E0AD5 /* PBXTextBookmark */ = 0495C5C610857015009E0AD5 /* PBXTextBookmark */;
+			0495C5C710857015009E0AD5 /* PBXTextBookmark */ = 0495C5C710857015009E0AD5 /* PBXTextBookmark */;
+			0495C5C810857015009E0AD5 /* PBXTextBookmark */ = 0495C5C810857015009E0AD5 /* PBXTextBookmark */;
+			0495C5C910857015009E0AD5 /* PBXTextBookmark */ = 0495C5C910857015009E0AD5 /* PBXTextBookmark */;
+			0495C5CB10857015009E0AD5 /* PBXTextBookmark */ = 0495C5CB10857015009E0AD5 /* PBXTextBookmark */;
+			0495C5CC10857015009E0AD5 /* PBXTextBookmark */ = 0495C5CC10857015009E0AD5 /* PBXTextBookmark */;
+			0495C62210857280009E0AD5 /* PBXTextBookmark */ = 0495C62210857280009E0AD5 /* PBXTextBookmark */;
+			0495C62410857280009E0AD5 /* PBXTextBookmark */ = 0495C62410857280009E0AD5 /* PBXTextBookmark */;
+			0495C62510857280009E0AD5 /* PBXTextBookmark */ = 0495C62510857280009E0AD5 /* PBXTextBookmark */;
+			0495C636108574BE009E0AD5 /* PBXBookmark */ = 0495C636108574BE009E0AD5 /* PBXBookmark */;
+			0495C637108574BE009E0AD5 /* PBXTextBookmark */ = 0495C637108574BE009E0AD5 /* PBXTextBookmark */;
+			0495C638108574BE009E0AD5 /* PBXTextBookmark */ = 0495C638108574BE009E0AD5 /* PBXTextBookmark */;
+			0495C639108574BE009E0AD5 /* PBXBookmark */ = 0495C639108574BE009E0AD5 /* PBXBookmark */;
+			0495C63B108574D1009E0AD5 /* PBXTextBookmark */ = 0495C63B108574D1009E0AD5 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 0495C5A810856E9E009E0AD5 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}
